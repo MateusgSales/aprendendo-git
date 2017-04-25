@@ -1,0 +1,24 @@
+1- O primeiro passo é criar uma pasta e iniciar um repositorio git nela fazendo que o git rastreie 
+as mudanças neste repositorio para isto devo usar o comando "git init"
+
+2- Após isso eu devo clonar meu repositorio remoto(repostiorio no github) usando o comando "git clone"
+ex: git clone https://github.com/MateusgSales/aprendendo-git.git
+
+3-Com este este arquivo de texto que estou escrevedo nele dentro da pasta devo verificar se as mudancas
+estão sendo rastreadas com o comando "git status" , as mudanças apareccem em vermeho indicando que existem
+arquivos para serem commitadas(arquivos não rastreados - untracked files).
+
+4- chegou a hora do seu primeiro commit! YAYYY!
+vamos commitar mas mudanças com o comando git commit -m "mensagem" (-m é para incluir a mensagem desejada)
+mas antes disto precisamos adicionar os arquivos para que eles sejam rastreados com o comando "git add"
+Podemos usar o comando "git add ." o "." quer dizer adicone todos os arquivo, só faça isso se tiver certeza do
+que estiver fazendo. por enquanto vamos usar somente o git add nomedoarquivo.
+
+agora dê um git status e o git deve informar que o arquivo está sendo rastreado indicando a cor verde.
+
+Pronto! agora voce pdoe fazer o commit para o github usando os comandos:
+git commit -m "meu primeiro commit que emoção!" e em seguida vamos envialos para o repositorio remoto(github)
+com o comando: "git push origin master"
+
+Este comando que dizer git envie do meu repositorio de origin("local" meu computador) para a branch master 
+no repositorio remoto.
